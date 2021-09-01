@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 
 
 static int arr[10001];
@@ -19,4 +19,4 @@ int main() {
 			printf("%d \n", i);
 	}
 	return 0;
-}
+}*/

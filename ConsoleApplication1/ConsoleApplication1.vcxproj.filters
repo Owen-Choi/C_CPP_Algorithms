@@ -27,5 +27,8 @@
     <ClCompile Include="2108.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Heap_Sort.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

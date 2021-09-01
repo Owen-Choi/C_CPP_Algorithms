@@ -23,6 +23,7 @@
     <ClCompile Include="2108.c" />
     <ClCompile Include="2750.c" />
     <ClCompile Include="2751.c" />
+    <ClCompile Include="Heap_Sort.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
