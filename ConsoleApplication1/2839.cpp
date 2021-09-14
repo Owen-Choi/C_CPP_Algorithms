@@ -6,50 +6,24 @@ int Min(int a, int b);
 int main() {
 	int Value;
 	cin >> Value;
-	int Increasing3 = 1, Increasing5 = 1;
-	// dynamically allocated :: 
-	int** dp = new int*[3]();
-	for (int i = 0; i < 3; i++)
-		dp[i] = new int[Value + 1]();
-
-	for (int i = 1; i < 3; i++) {
-		for (int k = 1; k <= Value; k++) {
-			if (i == 1) {
-				if (k % 5 == 0) {
-					for(int j = k; j <=Value; j++)
-						dp[i][j] = Increasing5;
-					Increasing5++;
-				}
-			}
-			else {
-				if (k % 3 == 0) {
-					if (dp[i - 1][k] != 0) {
-						dp[i][k] = Min(dp[i][k-1] + 1, Increasing3++);
-						Increasing3 = dp[i][k] + 1;
-					}
-					else
-						dp[i][k] = Increasing3++;
-				}
-				else
-					dp[i][k] = dp[i-1][k];
-			}
+	int result = 0;
+	int Five = Value / 5;
+	int temp;
+	while (Five >= 0) {
+		temp = Value - Five * 5;
+		if (temp % 3 == 0) {
+			result = Five + temp / 3;
+			break;
+		}
+		if (temp % 3 != 0) {
+			Five--;
 		}
 	}
-
-	for (int i = 0; i < 3; i++) {
-		for (int k = 0; k <= Value; k++) {
-			cout << dp[i][k] << " ";
-		}
-		cout << "\n";
-	}
-
-	if (dp[2][Value] == 0)
+	if (Five < 0)
 		cout << -1;
 	else
-		cout << dp[2][Value];
+		cout << result;
+
 	return 0;
 }
-
-int Min(int a, int b) {
-	return a < b ? a : b;
-}
+	
