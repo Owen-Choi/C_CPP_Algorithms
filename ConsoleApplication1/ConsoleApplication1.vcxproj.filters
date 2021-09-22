@@ -15,19 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2750.c">
+    <ClCompile Include="Smart_Elephant.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2751.c">
+    <ClCompile Include="10814.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="10989.c">
+    <ClCompile Include="Kruskal.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2108.c">
+    <ClCompile Include="Distinct_Subsequence.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Heap_Sort.c">
+    <ClCompile Include="2839.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="The_Cheapest_Way.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Kruskal.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Prim.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

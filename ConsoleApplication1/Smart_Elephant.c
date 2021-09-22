@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 #include<stdlib.h>
 static int arr[1001][2];				//arr[index][0] = weight, arr[index][1] = IQ
 static int iter = 0;
@@ -83,4 +83,4 @@ void Elephant() {
 			}
 		}
 	}
-}
+}*/

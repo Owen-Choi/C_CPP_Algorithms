@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 #include<stdlib.h>
 
 int Row, Col;
@@ -9,7 +9,7 @@ int FindMin(int first, int last);
 
 int main() {
 	FILE* fp;
-	fp = fopen("C:\\Users\\oldst\\Desktop\\201835539 √÷√∂øı\\Input3.txt", "r");
+	fp = fopen("C:\\Users\\oldst\\Desktop\\201835539 √÷√∂øı\\Input2.txt", "r");
 	if (fp == NULL) {
 		printf("Cannot find any files \n");
 		exit(1);
@@ -151,4 +151,4 @@ void FindMinValue(int** dp) {
 
 int FindMin(int first, int last) {
 	return first < last ? first : last;
-}
+}*/

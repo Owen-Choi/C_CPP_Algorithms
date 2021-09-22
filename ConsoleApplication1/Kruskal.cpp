@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 #include<algorithm>
 #include<vector>
 
@@ -74,5 +74,5 @@ int find(int set[], int first, int second) {
 	second = getParent(set, second);
 	if (first == second) return 1;
 	else return 0;
-}
+}*/
 

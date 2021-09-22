@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
 
@@ -95,4 +95,4 @@ int FindMin(int* dist, bool* flag) {
 		}
 	}
 	return minIndex;
-}
+}*/

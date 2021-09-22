@@ -1,4 +1,4 @@
-#include<iostream>
+/*#include<iostream>
 
 using namespace std;
 int Min(int a, int b);
@@ -25,5 +25,5 @@ int main() {
 		cout << result;
 
 	return 0;
-}
+}*/
 	

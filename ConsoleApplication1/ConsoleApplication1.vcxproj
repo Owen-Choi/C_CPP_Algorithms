@@ -19,11 +19,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="10989.c" />
-    <ClCompile Include="2108.c" />
-    <ClCompile Include="2750.c" />
-    <ClCompile Include="2751.c" />
-    <ClCompile Include="Heap_Sort.c" />
+    <ClCompile Include="10814.cpp" />
+    <ClCompile Include="2839.cpp" />
+    <ClCompile Include="Distinct_Subsequence.c" />
+    <ClCompile Include="Kruskal.c" />
+    <ClCompile Include="Kruskal.cpp" />
+    <ClCompile Include="Prim.c" />
+    <ClCompile Include="Smart_Elephant.c" />
+    <ClCompile Include="The_Cheapest_Way.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

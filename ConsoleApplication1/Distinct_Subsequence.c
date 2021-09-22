@@ -1,9 +1,8 @@
-#include<stdio.h>
+/*#include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-
-void Solve(int **dp, int row, int col, char* A, char* Z);
-int FindMax(int** dp, int row, int col);
+void Solve(int **dp, int row, int col, char* A, char* Z);			// this function is for find Subsequences
+int FindMax(int** dp, int row, int col);							// this function is for find MaxValue like Math.max in Java
 int main() {
 	int testCase;
 	scanf("%d", &testCase);
@@ -13,7 +12,7 @@ int main() {
 		char* Z = (char*)malloc(sizeof(char) * 100);
 		scanf("%s", A);
 		scanf("%s", Z);
-		int** dp = (int**)malloc(sizeof(int*) * (strlen(Z) + 1));
+		int** dp = (int**)malloc(sizeof(int*) * (strlen(Z) + 1));	//2-dimensional array for memoization
 		for (int i = 0; i <= strlen(A); i++) {
 			dp[i] = (int*)malloc(sizeof(int) * (strlen(A) + 1));
 		}
@@ -31,7 +30,10 @@ void Solve(int **dp, int row, int col, char* A, char* Z) {
 			dp[i][k] = 0;
 		}
 	}
-
+	// update dp value with specific rules :: 
+	// if there is same character value between A and Z, then the same index's dp value will be left one + left-cross one
+	// if there isn't same character value between A and Z, then dp value will be the bigger one of two values :: (continued)
+	// (continued) left one or itself
 	for (int i = 1; i <= row; i++) {
 		for (int k = 1; k <= col; k++) {
 			if (Z[i - 1] == A[k - 1])
@@ -49,4 +51,4 @@ int FindMax(int **dp, int row, int col) {
 	else
 		return dp[row][col];
 }
-
+*/

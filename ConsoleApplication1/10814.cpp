@@ -1,4 +1,4 @@
-#include<cstdio>
+/*#include<cstdio>
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
@@ -78,4 +78,4 @@ void merge(struct person* d,struct person *sort, int start, int finish, int pivo
 		sort[builder].age = d[LaterStart].age;
 		strcpy(sort[builder++].name, d[LaterStart++].name);
 	}
-}
+}*/
