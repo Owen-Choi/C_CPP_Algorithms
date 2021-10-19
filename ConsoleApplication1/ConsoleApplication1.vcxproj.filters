@@ -39,5 +39,17 @@
     <ClCompile Include="Prim.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Saving_Ink.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Contest_trip.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FloydWarshall.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

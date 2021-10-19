@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 
 #define INF 1000000
 #define size 4
@@ -34,4 +34,4 @@ int main() {
 		printf("\n");
 	}
 	return 0;
-}
+}*/

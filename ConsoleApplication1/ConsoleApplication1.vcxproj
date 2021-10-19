@@ -21,10 +21,14 @@
   <ItemGroup>
     <ClCompile Include="10814.cpp" />
     <ClCompile Include="2839.cpp" />
+    <ClCompile Include="Contest_trip.c" />
     <ClCompile Include="Distinct_Subsequence.c" />
+    <ClCompile Include="FloydWarshall.c" />
     <ClCompile Include="Kruskal.c" />
     <ClCompile Include="Kruskal.cpp" />
+    <ClCompile Include="Lab1.c" />
     <ClCompile Include="Prim.c" />
+    <ClCompile Include="Saving_Ink.c" />
     <ClCompile Include="Smart_Elephant.c" />
     <ClCompile Include="The_Cheapest_Way.c" />
   </ItemGroup>

@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
 
@@ -85,7 +85,7 @@ void Solve(Node* node) {
 		printf("%d %d %d \n", node[i].Start, node[i].Dest, node[i].Distance);
 	}
 	printf("\n%d is the Shortest distance \n", Result);*/
-
+/*
 }
 int GetParent(int Index) {
 	if (parent[Index] == Index)
@@ -110,4 +110,4 @@ void MergeParent(int FirstIndex, int SecondIndex) {
 		parent[SecondParent] = FirstParent;
 	else
 		parent[FirstParent] = SecondParent;
-}
+}*/

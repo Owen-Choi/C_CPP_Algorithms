@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
 #include<limits.h>
@@ -46,6 +46,7 @@ int main() {
 				list[i][k].destTime = INF;
 			}
 		}
+		int iter = 0, tempIndex;
 		for (int i = 0; i < ScheduleNum; i++) {
 			scanf("%d", &Station);
 			Store* ts = (Store*)calloc(Station, sizeof(Store));
@@ -53,15 +54,16 @@ int main() {
 				scanf("%d %s", &ts[i].time, &ts[i].cityName);
 			}
 			// now we have to link this value to list ::
-			int tempIndex;
 			// first we have to initialize the arrival time value ::
 			for (int k = 0; k < Station-1; k++) {
 				tempIndex = FindIndex(ts[k].cityName, cityNum);
-				strcpy(list[tempIndex][k].Start, ts[k].cityName);
-				strcpy(list[tempIndex][k].Destination, ts[k + 1].cityName);
-				list[tempIndex]->destTime = ts[k+1].time;
-				list[tempIndex]->StartTime = ts[k].time;
+				list[tempIndex][iter].destTime = ts[k + 1].time;
+				list[tempIndex][iter].StartTime = ts[k].time;
+				strcpy(list[tempIndex][iter].Start, ts[k].cityName);
+				strcpy(list[tempIndex][iter].Destination, ts[k + 1].cityName);
 			}
+			iter++;
+			// 서로 같은 노선으로 연결된 도시들은 같은 col 상에 존재하게 된다.
 			free(ts);
 		}
 		scanf("%d", &MinimumTime);
@@ -103,4 +105,4 @@ void Dijkstra(int row, int col, int cityNum) {
 			}
 		}
 	}
-}
+}*/

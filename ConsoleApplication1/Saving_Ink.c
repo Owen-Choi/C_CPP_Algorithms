@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
 #include<stdbool.h>
@@ -119,4 +119,4 @@ void UnionParent(int First, int Second) {
 
 bool cycleCheck(int First, int Second) {
 	return getParent(First) == getParent(Second);
-}
+}*/
