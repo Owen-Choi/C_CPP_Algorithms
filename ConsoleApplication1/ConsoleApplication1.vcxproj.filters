@@ -51,5 +51,14 @@
     <ClCompile Include="Lab1.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="The_RSA_Problem.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Clean_Campus.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Closest_pair.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

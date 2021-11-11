@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 void Solve(int **dp, int row, int col, char* A, char* Z);			// this function is for find Subsequences
@@ -57,4 +57,4 @@ int FindMax(int **dp, int row, int col) {
 	else
 		return dp[row][col];
 }
-
+*/

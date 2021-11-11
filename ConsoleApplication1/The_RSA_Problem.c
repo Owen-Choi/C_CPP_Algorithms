@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 
 // return GCD value ::
 int Euclid(int a, int b);
@@ -58,13 +58,13 @@ int squaring(int d) {
 	int iter = d;
 	int base = C;
 	int result = 1;
-	while (d > 0) {
-		while (d % 2 == 0) {
-			d /= 2;
+	while (iter > 0) {
+		while (iter % 2 == 0) {
+			iter /= 2;
 			base = (base * base) % n;
 		}
-		d--;
+		iter--;
 		result = (result * base) % n;
 	}
 	return result;
-}
+}*/
