@@ -54,10 +54,10 @@
     <ClCompile Include="The_RSA_Problem.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Clean_Campus.c">
+    <ClCompile Include="Closest_pair.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Closest_pair.c">
+    <ClCompile Include="Clean_Campus_Jarvis.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

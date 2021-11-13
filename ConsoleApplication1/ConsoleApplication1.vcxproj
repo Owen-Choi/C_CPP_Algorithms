@@ -21,7 +21,7 @@
   <ItemGroup>
     <ClCompile Include="10814.cpp" />
     <ClCompile Include="2839.cpp" />
-    <ClCompile Include="Clean_Campus.c" />
+    <ClCompile Include="Clean_Campus_Jarvis.c" />
     <ClCompile Include="Closest_pair.c" />
     <ClCompile Include="Contest_trip.c" />
     <ClCompile Include="Distinct_Subsequence.c" />

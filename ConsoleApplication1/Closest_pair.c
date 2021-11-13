@@ -1,4 +1,4 @@
-#include<stdio.h>
+/*#include<stdio.h>
 #include<stdlib.h>
 #define min(a,b) (a > b ? b : a)
 int point_num;
@@ -61,5 +61,5 @@ float Closest_pair(point* p, int startPos, int endPos) {
 			S[counter++] = p[i];
 		}
 	}
-}
+}*/
 
